@@ -1,0 +1,168 @@
+
+.header
+{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+.btn-nav
+{
+    position: fixed;
+    z-index: 1000;
+    right: 11px;
+    top: 8px;
+    font-size: 28px;
+    background-color: #d77450;
+    color: white;
+    overflow: hidden;
+    border-radius: 11px;
+}
+.btn-nav-icon
+{
+    outline: none;
+    width: 1.2em !important;
+}
+.profile
+{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    padding-top: 20px;
+    background-color: black;
+    overflow-y: auto;
+}
+.profile>h1
+{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.imgset
+{
+    width: 10vw;
+    height: 10vw;
+}
+.social-link
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.social-link>a
+{
+    color: black;
+    border-radius: 50%;
+    background-color: #858585;
+    padding: 8px 13px
+}
+.social-link>a:hover
+{
+    background-color: #605f5f;
+}
+.hero
+{
+    height: 100vh;
+    width: 100%;
+    padding-top: 40vh;
+/*    background-image: linear-gradient(to right, red,yellow);*/
+    background-image: url(../images/396602.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+    overflow: hidden;
+    
+}
+.name>h1
+{
+   font-size: 50px; 
+}
+.name>h6
+{
+   font-size: 20px; 
+}
+
+.about,.skill,.project,.resum,.contact,.edu
+{
+    border-width: 60px 1px 1px;
+    border-color: coral;
+    border-style: solid;
+    margin-top: 63px;
+}
+.img
+{
+    margin: 10px 20px;
+    width: 0;
+    height: 335px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.about>div>p{
+    padding: 0 40px;
+    text-align: center;
+}
+.quali
+{
+    margin: 10px 20px;
+}
+.edu div table tr>td:first-child{
+    padding-right: 20px;    
+}
+.siklls
+{
+    width: 100%;
+}
+.moreskills
+{
+    display: inline-block;
+    background-color: #4a87e0;
+    color: white;
+    padding: 2px 20px;
+    border-radius: 12px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+.td
+{
+    width: 100%;
+    
+}
+.progress
+{
+    background-color: #b8baba !important;
+}
+
+.proj
+{
+    border-width: 7px 1px 1px;
+    border-color: #00afff;
+    border-style: solid;
+    margin: 10px 15px;
+    padding: 20px 10px;
+    border-radius: 0 0px 10px 10px;
+    overflow: hidden;
+}
+
+.projinside
+{
+    padding: 0 20px;
+}
+.imgproj
+{
+    width: 86%;
+}
+.foot
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+@media only screen and (max-width:576px)
+{
+    .imgset
+    {    
+        width: 20vw;
+        height: 20vw;
+    }
+}
