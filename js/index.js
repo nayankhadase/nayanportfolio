@@ -4,7 +4,7 @@ $(document).ready(
                 $("#btnnav").click(
                     function() {
                         $("#prop").toggle("slow");
-                        $("#iconbtn").toggleClass("far fa-window-close");
+                        $("#iconbtn").toggleClass("fas fa-times");
                         $("#iconbtn").toggleClass("fas fa-bars ");
                         
                     }
@@ -12,7 +12,7 @@ $(document).ready(
                 $("#prop").click(
                     function() {
                         $("#prop").toggle("slow");
-                        $("#iconbtn").toggleClass("far fa-window-close");
+                        $("#iconbtn").toggleClass("fas fa-times");
                         $("#iconbtn").toggleClass("fas fa-bars ");
                     }
                 )
